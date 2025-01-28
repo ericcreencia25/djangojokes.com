@@ -11,7 +11,7 @@ function register(vote) {
   const csrfInput =  document.querySelector("input[name='csrfmiddlewaretoken']");
   const csrfToken = csrfInput.value;
   const likes = Number(document.getElementById('likes').innerHTML);
-  const dislikes = Number(document.getElementById('dislikes').innerHTML);
+  const dislikes = Number(document.getElementById('dislikes').innerHTML); 
   const data = {
     'vote': vote,
     'likes': likes,
