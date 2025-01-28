@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.sites',
     'django.contrib.staticfiles',
+    
     # Third-party
     'crispy_forms',
     'crispy_bootstrap5',
@@ -54,8 +55,6 @@ INSTALLED_APPS = [
     'jokes.apps.JokesConfig',
     'pages.apps.PagesConfig',
     'users.apps.UsersConfig',
-    
-    
     
 ]
 
